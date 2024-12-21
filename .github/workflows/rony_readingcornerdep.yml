@@ -31,7 +31,7 @@ jobs:
       with:
         push: true
         tags: readingcornerreg.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_9ee84fca4f704522943c6263bbeeac60 }}/readingcorner-backend:${{ github.sha }}
-        file: ./Dockerfile
+        file: ./ReadingCorner/Dockerfile
 
   deploy:
     runs-on: ubuntu-latest
