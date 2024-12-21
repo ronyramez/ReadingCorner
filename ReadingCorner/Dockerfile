@@ -19,6 +19,8 @@ RUN apt-get update --fix-missing \
 # Upgrade pip before installing dependencies
 RUN pip install --upgrade pip
 
+#fake edit to test CI/CD
+
 # Copy and install Python dependencies
 COPY ReadingCorner/requirements.txt /app/
 RUN pip install --no-cache-dir -r requirements.txt
