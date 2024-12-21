@@ -15,8 +15,8 @@ services:
     image: postgres:15
     container_name: postgres_db
     environment:
-      POSTGRES_USER: dbAdmin
+      POSTGRES_USER: postgres.abkacjxvgviitrryznqh
       POSTGRES_PASSWORD: Reading.Corner
-      POSTGRES_DB: ReadingCorner
+      POSTGRES_DB: postgres
     ports:
-      - "5432:5432"
+      - "5431:5431"
