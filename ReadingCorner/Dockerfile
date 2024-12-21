@@ -20,7 +20,7 @@ RUN apt-get update --fix-missing \
 RUN pip install --upgrade pip
 
 # Copy and install Python dependencies
-COPY requirements.txt /app/
+COPY ReadingCorner/requirements.txt /app/
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the rest of the application files
