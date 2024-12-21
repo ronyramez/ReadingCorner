@@ -22,7 +22,7 @@ RUN pip install --upgrade pip
 #fake edit to test CI/CD
 
 # Copy and install Python dependencies
-COPY ./requirements.txt/ /app/
+COPY ReadingCorner/requirements.txt/ /app/
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the rest of the application files
