@@ -6,7 +6,7 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1
 
 # Set the working directory
-WORKDIR /app
+WORKDIR /ReadingCorner
 
 # Install system dependencies
 RUN apt-get update --fix-missing \
@@ -24,7 +24,7 @@ COPY ReadingCorner/requirements.txt /app/
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the rest of the application files
-COPY . /app/
+COPY . /app
 
 # Expose the application's port
 EXPOSE 8000
