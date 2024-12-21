@@ -6,7 +6,7 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1
 
 # Set the working directory
-WORKDIR /ReadingCorner
+WORKDIR /app
 
 # Install system dependencies
 RUN apt-get update --fix-missing \
@@ -20,7 +20,7 @@ RUN apt-get update --fix-missing \
 RUN pip install --upgrade pip
 
 # Copy and install Python dependencies
-COPY ReadingCorner/requirements.txt /app/
+COPY requirements.txt /app/
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the rest of the application files
