@@ -17,7 +17,7 @@ RUN apt-get update --fix-missing \
 
 # Upgrade pip before installing dependencies
 RUN pip install --upgrade pip
-
+##
 # Copy requirements first to leverage Docker cache
 COPY ReadingCorner/requirements.txt /app/
 
