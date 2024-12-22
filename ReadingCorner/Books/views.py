@@ -12,7 +12,7 @@ from django.views.decorators.csrf import csrf_exempt
 # @permission_classes([IsAuthenticated])  # Ensure the user is authenticated
 # @api_view(['GET'])
 @csrf_exempt
-# @jwt_required
+@jwt_required
 def get_all_books(request):
     if request.method != 'GET':
         return JsonResponse({'error': 'Invalid request method.'}, status=405)
@@ -71,7 +71,7 @@ def get_all_books(request):
 
 
 @csrf_exempt
-# @jwt_required
+@jwt_required
 def get_book(request, id):
     # SQL query to fetch a single book by ID
     query = """
