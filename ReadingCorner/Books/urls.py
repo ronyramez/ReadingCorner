@@ -1,6 +1,7 @@
 from django.urls import path
-from .views import BookSerializer
+from .views import get_all_books, get_book
 
 urlpatterns = [
-    path('', BookSerializer),
+    path('', get_all_books),
+    path('<int:id>', get_book),
 ]
