@@ -36,6 +36,13 @@ urlpatterns = [
     path('home/', include('home.urls')),
     path('search/', include('search.urls')),
     path('books/', include('Books.urls')), #Books for searching
+    path('resetpassword/', include('resetpassword.urls')), #Books for searching
+    path('forgetpassword/', include('forgetpassword.urls')), #Books for searching
+    path('trendingbooks/', include('trendingbooks.urls')), #Books for searching
+    path('recommendbooks/', include('recommend.urls')), #Books for searching
+    path('favorites/', include('favorites.urls')), #Books for searching
+    path('cart/', include('cart.urls')), #Books for searching
+    path('review/', include('review.urls')), #Books for searching
 
 
     #Backend API documentation
