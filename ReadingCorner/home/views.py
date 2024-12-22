@@ -8,7 +8,7 @@ from django.db import connection
 
 @api_view(['GET'])
 @permission_classes([IsAuthenticated])
-@login_required
+@login_required(login_url='login')
 def home(request):
     # if request.user.is_authenticated:
         query = '''SELECT "BookName", "Language" FROM "Books"'''
