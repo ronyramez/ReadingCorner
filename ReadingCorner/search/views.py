@@ -1,19 +1,20 @@
 from django.shortcuts import render
 from django.db import connection  # To execute raw SQL queries
 from rest_framework.decorators import api_view
+from ReadingCorner.decorators import jwt_required
+from django.views.decorators.csrf import csrf_exempt
 
-
-
-@api_view(['GET'])
+@jwt_required
+@csrf_exempt
 def search(request):
     context = {}
     if request.method == 'GET':
-        search_query = request.GET.get('q', '').strip()  # Get the search query (can be empty)
+        search_query = request.GET.get('querySearch', '').strip()  # Get the search query (can be empty)
         language_filter = request.GET.get('language', '').strip()  # Get the language filter (can be empty)
 
         # Base SQL query
         query = """
-            SELECT "BookName", "Author", "Language", "Preview"
+            SELECT "Book_name", "Author", "Language" 
             FROM "Books"
             WHERE 1 = 1
         """
