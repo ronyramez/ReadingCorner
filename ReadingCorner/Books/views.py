@@ -7,7 +7,7 @@ from ReadingCorner.decorators import jwt_required
 from django.views.decorators.csrf import csrf_exempt
 
 
-
+##
 # @authentication_classes([JWTAuthentication])  # Ensure JWT authentication is used
 # @permission_classes([IsAuthenticated])  # Ensure the user is authenticated
 # @api_view(['GET'])
