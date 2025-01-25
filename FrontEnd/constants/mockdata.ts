@@ -36,6 +36,7 @@ export const books = [
     publishingNumber: "1st Edition",
     publishingYear: 2023,
     url: "https://drive.google.com/file/d/1rtnWmZpzu3kfba-BEBXaGYgiGFKULBgt/view?usp=drive_link",
+    price: 20,
   },
   {
     id: 2,
@@ -51,6 +52,7 @@ export const books = [
     publishingNumber: "1st Edition",
     publishingYear: 2023,
     url: "https://example.com/book2",
+    price: 20,
   },
   {
     id: 3,
@@ -66,6 +68,7 @@ export const books = [
     publishingNumber: "1st Edition",
     publishingYear: 2023,
     url: "https://example.com/book3",
+    price: 20,
   },
   {
     id: 4,
@@ -81,6 +84,7 @@ export const books = [
     publishingNumber: "1st Edition",
     publishingYear: 1911,
     url: "https://drive.google.com/file/d/1rtnWmZpzu3kfba-BEBXaGYgiGFKULBgt/view?usp=drive_link",
+    price: 20,
   },
   {
     id: 5,
@@ -96,6 +100,7 @@ export const books = [
     publishingNumber: "1st Edition",
     publishingYear: 2023,
     url: "https://drive.google.com/file/d/1rtnWmZpzu3kfba-BEBXaGYgiGFKULBgt/view?usp=drive_link",
+    price: 20,
   },
   {
     id: 6,
@@ -111,6 +116,7 @@ export const books = [
     publishingNumber: "1st Edition",
     publishingYear: 2023,
     url: "https://example.com/book6",
+    price: 20,
   },
   {
     id: 7,
@@ -126,6 +132,7 @@ export const books = [
     publishingNumber: "1st Edition",
     publishingYear: 2024,
     url: "https://reallygreatsite.com",
+    price: 20,
   },
   {
     id: 8,
@@ -141,6 +148,7 @@ export const books = [
     publishingNumber: "1st Edition",
     publishingYear: 2024,
     url: "https://reallygreatsite.com",
+    price: 20,
   },
   {
     id: 9,
@@ -156,6 +164,7 @@ export const books = [
     publishingNumber: "1st Edition",
     publishingYear: 2024,
     url: "https://reallygreatsite.com",
+    price: 20,
   },
   {
     id: 10,
@@ -171,6 +180,7 @@ export const books = [
     publishingNumber: "1st Edition",
     publishingYear: 2024,
     url: "https://reallygreatsite.com",
+    price: 20,
   },
   {
     id: 11,
@@ -186,6 +196,7 @@ export const books = [
     publishingNumber: "1st Edition",
     publishingYear: 2024,
     url: "https://reallygreatsite.com",
+    price: 20,
   },
   {
     id: 12,
@@ -201,6 +212,7 @@ export const books = [
     publishingNumber: "1st Edition",
     publishingYear: 2024,
     url: "https://reallygreatsite.com",
+    price: 20,
   },
   {
     id: 13,
@@ -216,6 +228,7 @@ export const books = [
     publishingNumber: "1st Edition",
     publishingYear: 2024,
     url: "https://reallygreatsite.com",
+    price: 20,
   },
   {
     id: 14,
@@ -231,6 +244,7 @@ export const books = [
     publishingNumber: "2nd Edition",
     publishingYear: 2023,
     url: "https://reallygreatsite.com",
+    price: 20,
   },
   {
     id: 15,
@@ -246,6 +260,7 @@ export const books = [
     publishingNumber: "2nd Edition",
     publishingYear: 2023,
     url: "https://reallygreatsite.com",
+    price: 20,
   },
   {
     id: 16,
@@ -261,6 +276,7 @@ export const books = [
     publishingNumber: "1st Edition",
     publishingYear: 2024,
     url: "https://reallygreatsite.com",
+    price: 20,
   },
   {
     id: 17,
@@ -276,6 +292,7 @@ export const books = [
     publishingNumber: "1st Edition",
     publishingYear: 2024,
     url: "https://reallygreatsite.com",
+    price: 20,
   },
   {
     id: 18,
@@ -291,6 +308,7 @@ export const books = [
     publishingNumber: "1st Edition",
     publishingYear: 2024,
     url: "https://reallygreatsite.com",
+    price: 20,
   },
   {
     id: 19,
@@ -306,6 +324,7 @@ export const books = [
     publishingNumber: "1st Edition",
     publishingYear: 2024,
     url: "https://reallygreatsite.com",
+    price: 20,
   },
   {
     id: 20,
@@ -321,6 +340,7 @@ export const books = [
     publishingNumber: "1st Edition",
     publishingYear: 2024,
     url: "https://reallygreatsite.com",
+    price: 20,
   },
   {
     id: 21,
@@ -336,6 +356,7 @@ export const books = [
     publishingNumber: "1st Edition",
     publishingYear: 2024,
     url: "https://reallygreatsite.com",
+    price: 20,
   },
   {
     id: 22,
@@ -351,6 +372,7 @@ export const books = [
     publishingNumber: "1st Edition",
     publishingYear: 2024,
     url: "https://reallygreatsite.com",
+    price: 20,
   },
   {
     id: 23,
@@ -366,6 +388,7 @@ export const books = [
     publishingNumber: "1st Edition",
     publishingYear: 2024,
     url: "https://reallygreatsite.com",
+    price: 20,
   },
   {
     id: 24,
@@ -381,6 +404,7 @@ export const books = [
     publishingNumber: "1st Edition",
     publishingYear: 2024,
     url: "https://reallygreatsite.com",
+    price: 20,
   },
   {
     id: 25,
@@ -396,6 +420,7 @@ export const books = [
     publishingNumber: "1st Edition",
     publishingYear: 2024,
     url: "https://reallygreatsite.com",
+    price: 20,
   },
   {
     id: 26,
@@ -411,6 +436,7 @@ export const books = [
     publishingNumber: "1st Edition",
     publishingYear: 2024,
     url: "https://reallygreatsite.com",
+    price: 20,
   },
   {
     id: 27,
@@ -426,6 +452,7 @@ export const books = [
     publishingNumber: "1st Edition",
     publishingYear: 2024,
     url: "https://reallygreatsite.com",
+    price: 20,
   },
   {
     id: 28,
@@ -441,6 +468,7 @@ export const books = [
     publishingNumber: "1st Edition",
     publishingYear: 2024,
     url: "https://reallygreatsite.com",
+    price: 20,
   },
   {
     id: 29,
@@ -456,6 +484,7 @@ export const books = [
     publishingNumber: "1st Edition",
     publishingYear: 2024,
     url: "https://reallygreatsite.com",
+    price: 20,
   },
   {
     id: 30,
@@ -471,6 +500,7 @@ export const books = [
     publishingNumber: "1st Edition",
     publishingYear: 2024,
     url: "https://reallygreatsite.com",
+    price: 20,
   },
   {
     id: 31,
@@ -486,6 +516,7 @@ export const books = [
     publishingNumber: "1st Edition",
     publishingYear: 2024,
     url: "https://reallygreatsite.com",
+    price: 20,
   },
   {
     id: 32,
@@ -501,6 +532,7 @@ export const books = [
     publishingNumber: "1st Edition",
     publishingYear: 2024,
     url: "https://reallygreatsite.com",
+    price: 20,
   },
   {
     id: 33,
@@ -516,6 +548,7 @@ export const books = [
     publishingNumber: "1st Edition",
     publishingYear: 2024,
     url: "https://reallygreatsite.com",
+    price: 20,
   },
   {
     id: 34,
@@ -531,6 +564,7 @@ export const books = [
     publishingNumber: "1st Edition",
     publishingYear: 2024,
     url: "https://reallygreatsite.com",
+    price: 20,
   },
   {
     id: 35,
@@ -546,6 +580,7 @@ export const books = [
     publishingNumber: "1st Edition",
     publishingYear: 2024,
     url: "https://reallygreatsite.com",
+    price: 20,
   },
   {
     id: 36,
@@ -561,6 +596,7 @@ export const books = [
     publishingNumber: "1st Edition",
     publishingYear: 2024,
     url: "https://reallygreatsite.com",
+    price: 20,
   },
 ];
 
@@ -579,6 +615,7 @@ export const trendingBooks = [
     publishingNumber: "2nd Edition",
     publishingYear: 2022,
     url: "https://drive",
+    price: 20,
   },
   {
     id: 38,
@@ -593,6 +630,8 @@ export const trendingBooks = [
     publisher: "Sunset Horizon Publishing",
     publishingNumber: "1st Edition",
     publishingYear: 2023,
+    url: "https://drive",
+    price: 20,
   },
   {
     id: 39,
@@ -607,6 +646,8 @@ export const trendingBooks = [
     publisher: "Orion Publishing Group",
     publishingNumber: "1st Edition",
     publishingYear: 2019,
+    url: "https://drive",
+    price: 20,
   },
   {
     id: 40,
@@ -621,6 +662,8 @@ export const trendingBooks = [
     publisher: "Hope & Light Publishing",
     publishingNumber: "1st Edition",
     publishingYear: 2022,
+    url: "https://drive",
+    price: 20,
   },
   {
     id: 41,
@@ -636,6 +679,7 @@ export const trendingBooks = [
     publishingNumber: "1st Edition",
     publishingYear: 2023,
     url: "https://drive.google.com/file/d/1rtnWmZpzu3kfba-BEBXaGYgiGFKULBgt/view?usp=drive_link",
+    price: 20,
   },
 ];
 
